@@ -1,16 +1,13 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class carregarcena : MonoBehaviour
+public class CarregarCena : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string nomeDaCena;
 
-    // Update is called once per frame
-    void Update()
+    public void Carregar()
     {
-        
+        SceneManager.LoadScene(nomeDaCena);
     }
 }
+
