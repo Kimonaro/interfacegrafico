@@ -29,7 +29,7 @@ public class Player : Personagem
         }
     }
 
-    private void onCollisionEnter2D(Collision2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Inimigo")
         {
