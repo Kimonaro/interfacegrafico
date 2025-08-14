@@ -1403,6 +1403,7 @@ GameObject:
   - component: {fileID: 1684843803}
   - component: {fileID: 1684843802}
   - component: {fileID: 1684843801}
+  - component: {fileID: 1684843804}
   m_Layer: 5
   m_Name: ButtonEsc
   m_TagString: Untagged
@@ -1474,10 +1475,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 8cffbd824552b314a8cd216589579ba2, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 1684843804}
+        m_TargetAssemblyTypeName: carregarCena, Assembly-CSharp
+        m_MethodName: Carregar
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1524,6 +1525,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684843799}
   m_CullTransparentMesh: 1
+--- !u!114 &1684843804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684843799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cffbd824552b314a8cd216589579ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomeDaCena: inicio
 --- !u!1 &1951929269
 GameObject:
   m_ObjectHideFlags: 0
