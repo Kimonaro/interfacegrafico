@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CarregarCena : MonoBehaviour
+public class carregarCena : MonoBehaviour
 {
     public string nomeDaCena;
 
